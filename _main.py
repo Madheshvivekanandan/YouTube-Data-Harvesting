@@ -10,7 +10,7 @@ mycursor = mydb.cursor(buffered=True)
 
 api_service_name = "youtube"
 api_version = "v3"
-api_key ='AIzaSyDVXsjQzIam-YuLQEyxP7_U9ItUhIoRZTI'
+api_key =#paste your own api key
 
 youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=api_key)
 st.title('YOUTUBE')
